@@ -18,15 +18,8 @@ class _InputPageState extends State<InputPage> {
           child: Container(
             color: Colors.grey[300],
             child: const TextField(
-              decoration: InputDecoration(
-                contentPadding: EdgeInsets.symmetric(horizontal: 10),
-                hintText: "Focus input and then return to map..",
-                focusedBorder: UnderlineInputBorder(
-                  borderSide: BorderSide(
-                    color: Colors.black26,
-                  ),
-                ),
-              ),
+//   Enable autofocus to see corrupted map every time.
+//              autofocus: true,
             ),
           ),
         ));
